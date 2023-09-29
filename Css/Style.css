@@ -1,0 +1,48 @@
+/* Margin: Es un Shorythand  es decir que controla 
+    los 4 lados de forma independiente
+    margin-top: Margen de la parte superior
+    marging- right: Margen derecho
+    margin-bottom: Margen inferior
+    margin-left: Margen izquierdo
+
+    Adminte 4 valores
+    4 valores -> margin: top right bottom left;
+    3 valores -> margin: top left/right bottom;
+    2 valores -> margin: top/bottom left/right;
+    1 valor -> margin: top/right/bottom/left;
+Border: propiedad que me permite modificar el borde de la caja
+    border-width: ancho de borde
+    border-style: estilo del border
+    border-color: color del border
+*/
+
+body{
+    background-color: #333;
+    color: aliceblue;
+}
+
+.bloque{
+    background-color: cadetblue;
+    width: 100px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px 30px;
+    /* border: 10px solid rgb(162, 115, 115); */
+    border-width: 15px;
+    border-style:dashed;
+    border-color: blueviolet;
+}
+/* .titulo{
+    margin-left: auto;
+    background-color: coral;
+    width: 100px;
+    margin-right: auto;
+} */
+/* .linea{
+    background-color: rgb(155, 99, 204);
+    color: inherit;
+    width: 500px;
+    height: 800px;
+    margin-right: 100px;
+} */
